@@ -4,6 +4,114 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>checkout project</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <section class="container">
+      <div class="logo">
+        <img src="" alt="" />
+      </div>
+      <div>
+        <h1>Checkout form</h1>
+        <p>
+          Below is an example form built entirely with Bootstrap's form
+          controls. Each required form group has a validation state that can be
+          triggered by attempting to submit the form without completing it.
+        </p>
+      </div>
+      <div>
+        <div class="form">
+          <form>
+            <h2>Billing address</h2>
+            <div>
+              <label for="name">First name</label>
+              <input type="text" id="name" />
+              <label for="last-name">Last name</label>
+              <input type="text" id="last-name" />
+            </div>
+            <div>
+              <label for="username">Username</label>
+              <input type="text" id="username" placeholder="Username" />
+              <label for="email">Email </label>
+              <input type="email" id="email" placeholder="you@example.com" />
+              <label for="address">Address</label>
+              <input type="text" id="address" placeholder="1234 main street" />
+              <label for="address2">Address 2 </label>
+              <input
+                type="text"
+                id="address2"
+                placeholder="Apartment or Suite"
+              />
+            </div>
+            <div>
+              <label for="country">Country</label>
+              <select name="country" id="country">
+                <option value="" disabled selected>Choose</option>
+                <option value="United States">United States</option>
+              </select>
+              <label for="state">state</label>
+              <select name="state" id="state">
+                <option value="" disabled selected>Choose</option>
+                <option value="California">California</option>
+              </select>
+              <label for="zipcode">Zip</label>
+              <input type="text" id="zipcode" />
+            </div>
+            <div class="radio">
+              <input type="checkbox" id="shipping" />
+              <label for="shipping" name="shipping"
+                >Shipping address is the same as my billing address</label
+              >
+              <input type="checkbox" id="save-info" />
+              <label for="save-info" name="save-info"
+                >Save this information for next time</label
+              >
+            </div>
+            <div>
+              <div>
+                <h2>Payment</h2>
+                <input type="radio" id="credit-card" name="payment" />
+                <label for="credit-card" name="credit-card">Credit Card</label>
+                <input type="radio" id="debit-card" name="payment" />
+                <label for="debit-card" name="debit-card">Debit Card</label>
+                <input type="radio" id="paypal" name="payment" />
+                <label for="paypal" name="paypal">Paypal</label>
+              </div>
+              <div>
+                <label for="name-on-card">Name on card</label>
+                <input type="text" id="name-on-card" />
+                <label for="number-on-card">Credit card number</label>
+                <input type="number" id="number-on-card" />
+              </div>
+              <div>
+                <label for="expiration">Expiration</label>
+                <input type="date" id="expiration" />
+                <label for="CVV">CVV</label>
+                <input type="number" id="CVV" />
+              </div>
+              <button type="submit">Continue to checkout</button>
+            </div>
+          </form>
+        </div>
+        <div class="sidebar">
+          <div>
+            <h2>Your cart</h2>
+            <p>3</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div>
+      <footer>
+        <p>© 2017-2018 Company Name</p>
+        <ul>
+          <li>
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Support</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,13 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 960px;
+    margin: 0 347px;
+    background-color: aqua;
+}
+body{
+    background-color: blue;
+}
